@@ -1,1 +1,161 @@
 [2025-10-17 18:43:13,268: INFO: main: Welcome to our custom logging]
+[2025-10-30 12:34:08,113: ERROR: 3479513565: [Errno 2] No such file or directory: 'config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_5976\3479513565.py", line 4, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_5976\532316774.py", line 10, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.yaml'
+[2025-10-30 12:35:09,958: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:35:09,960: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:35:09,962: INFO: common: created directory at: artifacts]
+[2025-10-30 12:35:09,963: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:35:09,964: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:35:11,066: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 182 KB]
+[2025-10-30 12:35:11,066: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:35:11,178: ERROR: 3479513565: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_18516\3479513565.py", line 9, in <module>
+    data_ingestion.extract_zip_file(
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_18516\3790782038.py", line 23, in extract_zip_file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1313, in __init__
+    self._RealGetContents()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1380, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-30 12:37:27,272: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:37:27,272: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:37:27,278: INFO: common: created directory at: artifacts]
+[2025-10-30 12:37:27,281: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:37:27,282: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:37:27,284: INFO: 3790782038: File already exists of size ~ 182 KB]
+[2025-10-30 12:37:27,286: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:37:27,288: ERROR: 3479513565: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_4476\3479513565.py", line 9, in <module>
+    data_ingestion.extract_zip_file(
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_4476\3790782038.py", line 23, in extract_zip_file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1313, in __init__
+    self._RealGetContents()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1380, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-30 12:38:16,536: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:38:16,539: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:38:16,540: INFO: common: created directory at: artifacts]
+[2025-10-30 12:38:16,540: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:38:16,540: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:38:16,540: INFO: 3790782038: File already exists of size ~ 182 KB]
+[2025-10-30 12:38:16,540: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:38:16,540: ERROR: 3479513565: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_7056\3479513565.py", line 9, in <module>
+    data_ingestion.extract_zip_file(
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_7056\3790782038.py", line 23, in extract_zip_file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1313, in __init__
+    self._RealGetContents()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1380, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-30 12:39:54,511: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:39:54,518: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:39:54,521: INFO: common: created directory at: artifacts]
+[2025-10-30 12:39:54,523: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:39:54,524: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:39:54,526: INFO: 3790782038: File already exists of size ~ 182 KB]
+[2025-10-30 12:39:54,527: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:39:54,529: ERROR: 3479513565: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_9924\3479513565.py", line 9, in <module>
+    data_ingestion.extract_zip_file(
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_9924\3790782038.py", line 23, in extract_zip_file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1313, in __init__
+    self._RealGetContents()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1380, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-30 12:41:28,422: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:41:28,423: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:41:28,428: INFO: common: created directory at: artifacts]
+[2025-10-30 12:41:28,430: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:41:28,431: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:41:28,433: INFO: 3790782038: File already exists of size ~ 182 KB]
+[2025-10-30 12:41:28,435: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:41:28,436: ERROR: 3479513565: File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_19988\3479513565.py", line 9, in <module>
+    data_ingestion.extract_zip_file(
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_19988\3790782038.py", line 23, in extract_zip_file
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1313, in __init__
+    self._RealGetContents()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\zipfile.py", line 1380, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-10-30 12:42:33,709: ERROR: 3479513565: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_12860\3479513565.py", line 4, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_12860\532316774.py", line 10, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2025-10-30 12:42:51,100: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 12:42:51,102: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 12:42:51,104: INFO: common: created directory at: artifacts]
+[2025-10-30 12:42:51,104: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 12:42:51,107: INFO: 3790782038: Starting data download...]
+[2025-10-30 12:42:53,886: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 8073 KB]
+[2025-10-30 12:42:53,886: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 12:42:54,048: INFO: 3790782038: Data extracted successfully at artifacts\data_ingestion]
+[2025-10-30 22:23:00,378: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-10-30 22:23:00,385: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-10-30 22:23:00,388: INFO: common: created directory at: artifacts]
+[2025-10-30 22:23:00,392: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-10-30 22:23:00,397: INFO: 3790782038: Starting data download...]
+[2025-10-30 22:23:28,633: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 8073 KB]
+[2025-10-30 22:23:28,635: INFO: 3790782038: Starting data extraction...]
+[2025-10-30 22:23:28,784: INFO: 3790782038: Data extracted successfully at artifacts\data_ingestion]
+[2025-11-01 17:17:01,189: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-01 17:17:01,222: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-01 17:17:01,240: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-01 17:17:01,240: INFO: common: created directory at: artifacts]
+[2025-11-01 17:17:01,240: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-01 17:17:01,247: ERROR: main: module 'TextSummarizer.logging' has no attribute 'info']
+Traceback (most recent call last):
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\main.py", line 8, in <module>
+    data_ingestion.main()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion.download_data()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\components\data_ingestion.py", line 21, in download_data
+    logger.info("Starting data download...")
+    ^^^^^^^^^^^
+AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
