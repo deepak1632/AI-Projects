@@ -167,3 +167,208 @@ AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
 [2025-11-01 17:18:28,623: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 8073 KB]
 [2025-11-01 17:18:28,623: INFO: 3790782038: Starting data extraction...]
 [2025-11-01 17:18:28,849: INFO: 3790782038: Data extracted successfully at artifacts\data_ingestion]
+[2025-11-08 16:19:41,555: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:19:41,597: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:19:41,601: INFO: common: created directory at: artifacts]
+[2025-11-08 16:19:41,603: ERROR: 568175145: 'ConfigurationManager' object has no attribute 'get_data_validation_config']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25472\568175145.py", line 3, in <module>
+    data_validation_config = config_manager.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_validation_config'
+[2025-11-08 16:21:29,001: ERROR: 568175145: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25472\568175145.py", line 2, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25472\837464024.py", line 10, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2025-11-08 16:22:12,233: ERROR: 2695422100: [Errno 2] No such file or directory: 'config\\config.yaml']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25472\2695422100.py", line 3, in <module>
+    config_manager = ConfigurationManager()
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25472\837464024.py", line 10, in __init__
+    self.config = read_yaml(config_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 35, in read_yaml
+    raise e
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\utils\common.py", line 28, in read_yaml
+    with open(path_to_yaml) as yaml_file:
+         ^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config\\config.yaml'
+[2025-11-08 16:32:01,816: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:32:01,830: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:32:01,835: INFO: common: created directory at: artifacts]
+[2025-11-08 16:35:14,210: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:35:14,213: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:35:14,215: INFO: common: created directory at: artifacts]
+[2025-11-08 16:35:44,907: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:35:44,912: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:35:44,920: INFO: common: created directory at: artifacts]
+[2025-11-08 16:35:44,924: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-08 16:38:18,433: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:38:18,436: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:38:18,439: INFO: common: created directory at: artifacts]
+[2025-11-08 16:38:18,442: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-08 16:39:26,244: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:39:26,248: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:39:26,251: INFO: common: created directory at: artifacts]
+[2025-11-08 16:39:26,255: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-08 16:40:15,290: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:40:15,294: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:40:15,298: INFO: common: created directory at: artifacts]
+[2025-11-08 16:40:15,302: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-08 16:43:59,567: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:43:59,575: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:43:59,583: INFO: common: created directory at: artifacts]
+[2025-11-08 16:43:59,587: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-08 16:43:59,590: INFO: 3790782038: Starting data download...]
+[2025-11-08 16:44:00,879: ERROR: 3479513565: <urlopen error [Errno 11001] getaddrinfo failed>]
+Traceback (most recent call last):
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1349, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1468, in connect
+    super().connect()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 962, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\socket.py", line 839, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_18360\3479513565.py", line 7, in <module>
+    zip_file_path = data_ingestion.download_data()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_18360\3790782038.py", line 8, in download_data
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[2025-11-08 16:44:25,102: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:44:25,107: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:44:25,111: INFO: common: created directory at: artifacts]
+[2025-11-08 16:44:25,117: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-08 16:44:25,120: INFO: 3790782038: Starting data download...]
+[2025-11-08 16:44:25,738: ERROR: 3479513565: <urlopen error [Errno 11001] getaddrinfo failed>]
+Traceback (most recent call last):
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1348, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1303, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1349, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1298, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1058, in _send_output
+    self.send(msg)
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 996, in send
+    self.connect()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 1468, in connect
+    super().connect()
+  File "c:\Users\deepa\.conda\envs\textS\Lib\http\client.py", line 962, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\socket.py", line 839, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_8984\3479513565.py", line 7, in <module>
+    zip_file_path = data_ingestion.download_data()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_8984\3790782038.py", line 8, in download_data
+    filename, headers = request.urlretrieve(
+                        ^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 241, in urlretrieve
+    with contextlib.closing(urlopen(url, data)) as fp:
+                            ^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 519, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 536, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1391, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\deepa\.conda\envs\textS\Lib\urllib\request.py", line 1351, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+[2025-11-08 16:45:39,629: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:45:39,633: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:45:39,636: INFO: common: created directory at: artifacts]
+[2025-11-08 16:45:39,638: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-08 16:45:39,640: INFO: 3790782038: Starting data download...]
+[2025-11-08 16:45:54,753: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 8073 KB]
+[2025-11-08 16:45:54,758: INFO: 3790782038: Starting data extraction...]
+[2025-11-08 16:45:55,074: INFO: 3790782038: Data extracted successfully at artifacts\data_ingestion]
+[2025-11-08 16:47:02,706: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:47:02,715: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:47:02,720: INFO: common: created directory at: artifacts]
+[2025-11-08 16:47:02,724: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-08 16:53:30,430: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-08 16:53:30,437: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-08 16:53:30,441: INFO: common: created directory at: artifacts]
+[2025-11-08 16:53:30,445: INFO: common: created directory at: artifacts/data_validation]
