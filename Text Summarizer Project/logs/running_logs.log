@@ -384,3 +384,114 @@ urllib.error.URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 [2025-11-08 16:56:27,603: INFO: common: yaml file: params.yaml loaded sucessfully]
 [2025-11-08 16:56:27,607: INFO: common: created directory at: artifacts]
 [2025-11-08 16:56:27,610: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:28:57,186: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:28:57,197: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:28:57,199: INFO: common: created directory at: artifacts]
+[2025-11-09 17:28:57,200: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:35:36,591: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:35:36,596: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:35:36,601: INFO: common: created directory at: artifacts]
+[2025-11-09 17:35:36,604: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:38:26,808: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:38:26,812: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:38:26,814: INFO: common: created directory at: artifacts]
+[2025-11-09 17:38:26,816: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:46:18,938: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:46:18,941: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:46:18,944: INFO: common: created directory at: artifacts]
+[2025-11-09 17:46:18,946: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-09 17:46:18,947: INFO: 3790782038: Starting data download...]
+[2025-11-09 17:46:20,671: INFO: 3790782038: Data downloaded successfully! and is saved at artifacts\data_ingestion\data.zip and the file size is ~ 8073 KB]
+[2025-11-09 17:46:20,673: INFO: 3790782038: Starting data extraction...]
+[2025-11-09 17:46:20,856: INFO: 3790782038: Data extracted successfully at artifacts\data_ingestion]
+[2025-11-09 17:46:28,951: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:46:28,953: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:46:28,955: INFO: common: created directory at: artifacts]
+[2025-11-09 17:46:28,956: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:46:28,960: INFO: 57669109: Starting data validation...]
+[2025-11-09 17:46:28,962: INFO: 57669109: Files and folders found: ['samsum_dataset', 'samsum-test.csv', 'samsum-train.csv', 'samsum-validation.csv', 'test', 'train', 'validation', 'dataset_dict.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json']]
+[2025-11-09 17:46:28,964: ERROR: 57669109: 'DataValidationConfig' object has no attribute 'all_required_files']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_25568\57669109.py", line 20, in validate_all_files_exist
+    for req_file in self.config.all_required_files
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'all_required_files'
+[2025-11-09 17:47:50,417: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:47:50,421: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:47:50,423: INFO: common: created directory at: artifacts]
+[2025-11-09 17:47:50,425: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:47:50,427: INFO: 968998553: Starting data validation...]
+[2025-11-09 17:47:50,431: INFO: 968998553: Files and folders found: ['samsum_dataset', 'samsum-test.csv', 'samsum-train.csv', 'samsum-validation.csv', 'test', 'train', 'validation', 'dataset_dict.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json']]
+[2025-11-09 17:47:50,432: ERROR: 968998553: 'DataValidationConfig' object has no attribute 'STATUS_FILES']
+Traceback (most recent call last):
+  File "C:\Users\deepa\AppData\Local\Temp\ipykernel_24528\968998553.py", line 23, in validate_all_files_exist
+    with open(self.config.STATUS_FILES, "w") as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'STATUS_FILES'
+[2025-11-09 17:48:32,427: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 17:48:32,430: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 17:48:32,430: INFO: common: created directory at: artifacts]
+[2025-11-09 17:48:32,432: INFO: common: created directory at: artifacts/data_validation]
+[2025-11-09 17:48:32,433: INFO: 1871879923: Starting data validation...]
+[2025-11-09 17:48:32,436: INFO: 1871879923: Files and folders found: ['samsum_dataset', 'samsum-test.csv', 'samsum-train.csv', 'samsum-validation.csv', 'test', 'train', 'validation', 'dataset_dict.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json', 'data-00000-of-00001.arrow', 'dataset_info.json', 'state.json']]
+[2025-11-09 17:48:32,437: INFO: 1871879923: Validation status: True]
+[2025-11-09 18:01:08,697: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-09 18:01:08,699: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 18:01:08,701: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 18:01:08,701: INFO: common: created directory at: artifacts]
+[2025-11-09 18:01:08,702: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-09 18:01:08,702: ERROR: main: module 'TextSummarizer.logging' has no attribute 'info']
+Traceback (most recent call last):
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\main.py", line 9, in <module>
+    data_ingestion.main()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion.download_data()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\components\data_ingestion.py", line 21, in download_data
+    logger.info("Starting data download...")
+    ^^^^^^^^^^^
+AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
+[2025-11-09 18:18:56,491: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-09 18:18:56,493: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 18:18:56,495: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 18:18:56,495: INFO: common: created directory at: artifacts]
+[2025-11-09 18:18:56,496: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-09 18:18:56,496: ERROR: main: module 'TextSummarizer.logging' has no attribute 'info']
+Traceback (most recent call last):
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion.download_data()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\components\data_ingestion.py", line 21, in download_data
+    logger.info("Starting data download...")
+    ^^^^^^^^^^^
+AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
+[2025-11-09 18:21:42,381: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-09 18:21:42,382: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 18:21:42,383: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 18:21:42,386: INFO: common: created directory at: artifacts]
+[2025-11-09 18:21:42,386: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-09 18:21:42,386: ERROR: main: module 'TextSummarizer.logging' has no attribute 'info']
+Traceback (most recent call last):
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion.download_data()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\components\data_ingestion.py", line 21, in download_data
+    logger.info("Starting data download...")
+    ^^^^^^^^^^^
+AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
+[2025-11-09 18:24:03,165: INFO: main: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2025-11-09 18:24:03,167: INFO: common: yaml file: config\config.yaml loaded sucessfully]
+[2025-11-09 18:24:03,168: INFO: common: yaml file: params.yaml loaded sucessfully]
+[2025-11-09 18:24:03,168: INFO: common: created directory at: artifacts]
+[2025-11-09 18:24:03,169: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-11-09 18:24:03,169: ERROR: main: module 'TextSummarizer.logging' has no attribute 'info']
+Traceback (most recent call last):
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion.download_data()
+  File "D:\Deepak_Work\AI-Projects\AI-Projects\Text Summarizer Project\src\TextSummarizer\components\data_ingestion.py", line 21, in download_data
+    logger.info("Starting data download...")
+    ^^^^^^^^^^^
+AttributeError: module 'TextSummarizer.logging' has no attribute 'info'
